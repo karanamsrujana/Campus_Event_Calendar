@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Reports | Campus Events</title><link rel="stylesheet" href="/css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head>
+<body><header class="topbar"><a class="brand" href="/">Campus<span>Events</span></a><nav><a href="/calendar.html">Calendar</a><a href="/events.html">Events</a><a class="active" href="/reports.html">Reports</a></nav></header>
+<main class="page"><div class="page-head"><div><p class="eyebrow">ANALYTICS</p><h1>Attendance reports</h1><p class="muted">Monitor registrations and actual participation.</p></div>
+<div class="actions"><a class="button secondary" href="/api/reports/rsvp/csv">Export RSVPs</a><a class="button" href="/api/reports/attendance/csv">Export Attendance CSV</a></div></div>
+<div id="reportCards" class="stats"></div><div class="chart-card"><canvas id="attendanceChart"></canvas></div>
+<div class="table-card"><table><thead><tr><th>Event</th><th>Registered</th><th>Attended</th><th>Attendance</th></tr></thead><tbody id="reportBody"></tbody></table></div></main>
+<script src="/js/reports.js"></script><script>loadReports()</script></body></html>
