@@ -2,6 +2,11 @@
 
 A responsive campus-event management web application inspired by the clean, modular structure of the referenced SongNet repository.
 
+Team:
+KP Preetika Setty
+Karanam Srujana
+K Prashanthi
+
 ## Features
 - Responsive calendar with month/week/list views
 - Upcoming campus event listing
